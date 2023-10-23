@@ -1,0 +1,17 @@
+{
+   "configurations": {
+        "test":{
+            "adapter": "debugpy",
+            "configuration": {
+                "name": "this is a python test",
+                "type": "python",
+                "request": "launch",
+		"cwd": "${workspaceRoot}",
+        	"python": "../anaconda3/envs/cycBMA/bin/python",
+		"program": "${file}",
+    		"args": [ "*${CommandLineArgs}" ]
+	    	}
+        }
+    }
+}
+
